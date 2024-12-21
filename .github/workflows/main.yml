@@ -23,8 +23,6 @@ jobs:
       # Step 4: Build the React app
       - run: npm run build
 
-      # cd to terraform
-      - run: cd terraform
       # Step 5: Set up AWS CLI
       - uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -40,6 +38,7 @@ jobs:
 
       # Step 7: Terraform Initialization and Apply
       - run: |
+          cd terraform
           terraform init
           terraform plan -out=tfplan
           terraform apply -auto-approve tfplan
