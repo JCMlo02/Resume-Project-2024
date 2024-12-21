@@ -13,14 +13,14 @@ const Projects = () => {
             <p class="text-sm leading-normal text-gray-500">
               <a
                 class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md"
-                href="test.com"
+                href="https://www.y-jacobmlo.com"
               >
                 Live
               </a>{" "}
               |{" "}
               <a
                 class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md"
-                href="test.com"
+                href="https://github.com/JCMlo02/Resume-Project-2024"
               >
                 Code
               </a>
