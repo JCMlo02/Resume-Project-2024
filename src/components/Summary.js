@@ -60,7 +60,7 @@ const Contacts = () => {
                   </a>
                 </li>
                 <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                  <a href="tel:+15109070654">
+                  <a href="tel:+17048408197">
                     <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
                       Phone:
                     </span>
