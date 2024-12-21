@@ -7,6 +7,15 @@
 
 # testing
 /coverage
+.terraform
+*.tfstate
+*.tfstate.*
+
+# Terraform backup files
+*.bak
+
+# Terraform plugin directory
+.terraform/
 
 # production
 /build

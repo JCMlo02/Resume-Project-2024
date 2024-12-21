@@ -11,7 +11,19 @@ const Projects = () => {
               Live Resume
             </h3>
             <p class="text-sm leading-normal text-gray-500">
-              <a href="test.com">Live</a> | <a href="test.com">Code</a>
+              <a
+                class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md"
+                href="test.com"
+              >
+                Live
+              </a>{" "}
+              |{" "}
+              <a
+                class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md"
+                href="test.com"
+              >
+                Code
+              </a>
             </p>
             <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
               <li>
