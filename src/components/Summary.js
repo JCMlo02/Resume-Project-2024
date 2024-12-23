@@ -20,51 +20,54 @@ const PreSummary = () => {
 
 const Contacts = () => {
   return (
-    <section class="pb-2 pb-4 mt-0 border-gray-300 first:mt-0">
-      <section class="flex-col">
-        <section class="pb-2 mt-4 mb-0 first:mt-0">
-          <section class="break-inside-avoid">
-            <section class="pb-4 mb-2 break-inside-avoid">
-              <ul class="pr-7 list-inside">
-                <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                  <a href="https://github.com/JCMlo02" class="group">
-                    <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
-                      Github:
-                    </span>
-                    JCMlo02
-                    <span class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
-                      ↗
-                    </span>
+    <section className="pb-2 pb-4 mt-0 border-gray-300 first:mt-0">
+      <section className="flex-col">
+        <section className="pb-2 mt-4 mb-0 first:mt-0">
+          <section className="break-inside-avoid">
+            <section className="pb-4 mb-2 break-inside-avoid">
+              <ul className="list-inside">
+                <li className="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md flex items-center">
+                  <span className="mr-5 text-lg font-semibold text-gray-700 leading-snugish w-24">
+                    Github:
+                  </span>
+                  <a
+                    href="https://github.com/JCMlo02"
+                    className="group text-gray-500 transition duration-100 ease-in hover:text-gray-700"
+                  >
+                    www.github.com/JCMlo02
                   </a>
                 </li>
-                <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                  <a href="https://linkedin.com/in/ymlo" class="group">
-                    <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
-                      Linkedin:
-                    </span>
-                    https://linkedin.com/in/ymlo
-                    <span class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
-                      ↗
-                    </span>
+                <li className="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md flex items-center">
+                  <span className="mr-5 text-lg font-semibold text-gray-700 leading-snugish w-24">
+                    Linkedin:
+                  </span>
+                  <a
+                    href="https://linkedin.com/in/ymlo"
+                    className="group text-gray-500 transition duration-100 ease-in hover:text-gray-700"
+                  >
+                    www.linkedin.com/in/ymlo
                   </a>
                 </li>
-                <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                  <a href="mailto:jacobmlo2002@gmail.com">
-                    <span class="mr-8 text-lg font-semibold text-gray-700 leading-snugish">
-                      Email:
-                    </span>
-                    Jacobmlo2002@gmail.com
-                    <span class="inline-block font-normal text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
-                      ↗
-                    </span>
+                <li className="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md flex items-center">
+                  <span className="mr-5 text-lg font-semibold text-gray-700 leading-snugish w-24">
+                    Email:
+                  </span>
+                  <a
+                    href="mailto:jacobmlo2002@gmail.com"
+                    className="group text-gray-500 transition duration-100 ease-in hover:text-gray-700"
+                  >
+                    jacobmlo2002@gmail.com
                   </a>
                 </li>
-                <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                  <a href="tel:+17048408197">
-                    <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
-                      Phone:
-                    </span>
-                    +1(704)840-8197↗
+                <li className="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md flex items-center">
+                  <span className="mr-5 text-lg font-semibold text-gray-700 leading-snugish w-24">
+                    Phone:
+                  </span>
+                  <a
+                    href="tel:+17048408197"
+                    className="group text-gray-500 transition duration-100 ease-in hover:text-gray-700"
+                  >
+                    +1(704) 840-8197
                   </a>
                 </li>
               </ul>

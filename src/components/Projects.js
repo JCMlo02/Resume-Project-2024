@@ -1,11 +1,11 @@
 const Projects = () => {
   return (
-    <section class="pb-2 pb-4 mt-4 border-b-4 border-gray-300 first:mt-0">
+    <section class="pb-2 pb-4 mt-4 first:mt-0">
       <section class="break-inside-avoid">
         <h2 class="mb-2 text-xl font-black tracking-widest text-gray-800 print:font-normal text-center">
           PROJECTS
         </h2>
-        <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+        <section class="mb-2 break-inside-avoid">
           <header>
             <h3 class="font-semibold text-gray-800 text-md leading-snugish">
               Live Resume
@@ -37,8 +37,9 @@ const Projects = () => {
                 <span class="text-gray-500 transform -translate-y-px select-none">
                   &rarr;{" "}
                 </span>
-                Stack used includes React, Tailwind CSS, JavaScript, and GitHub
-                for version control.
+                The stack I used includes React, Tailwind CSS, JavaScript,
+                GitHub for version control, Terraform for infrastructure automation, GitHub Actions for CI/CD, and AWS services such as S3,
+                CloudFront, and Route 53 for hosting and deployment.
               </li>
             </ul>
           </header>
