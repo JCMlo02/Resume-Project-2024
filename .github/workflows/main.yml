@@ -43,7 +43,7 @@ jobs:
       # Step 8: Sync React build to S3
       - run: |
           npm run build
-          aws s3 sync ./build/ s3://live-resume-react/ --delete
+          aws s3 sync ./build/ s3://live-resume-react/
 
       # Step 9: Invalidate CloudFront cache
       - run: |
