@@ -32,9 +32,7 @@ const Contacts = () => {
                       Github:
                     </span>
                     JCMlo02
-                    <span class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
-                      ↗
-                    </span>
+                    <span class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:"></span>
                   </a>
                 </li>
                 <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
@@ -43,9 +41,7 @@ const Contacts = () => {
                       Linkedin:
                     </span>
                     https://linkedin.com/in/ymlo
-                    <span class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
-                      ↗
-                    </span>
+                    <span class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:"></span>
                   </a>
                 </li>
                 <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
@@ -54,9 +50,7 @@ const Contacts = () => {
                       Email:
                     </span>
                     Jacobmlo2002@gmail.com
-                    <span class="inline-block font-normal text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
-                      ↗
-                    </span>
+                    <span class="inline-block font-normal text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black"></span>
                   </a>
                 </li>
                 <li class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
@@ -64,7 +58,7 @@ const Contacts = () => {
                     <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
                       Phone:
                     </span>
-                    +1(704)840-8197↗
+                    +1(704)840-8197
                   </a>
                 </li>
               </ul>
