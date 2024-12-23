@@ -43,6 +43,6 @@ resource "aws_cloudfront_distribution" "react_app_distribution" {
       restriction_type = "none"
     }
   }
-
+  price_class = "PriceClass_100"
   enabled = true
 }
