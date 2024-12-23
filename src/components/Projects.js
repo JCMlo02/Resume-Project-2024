@@ -37,8 +37,9 @@ const Projects = () => {
                 <span class="text-gray-500 transform -translate-y-px select-none">
                   &rarr;{" "}
                 </span>
-                Stack used includes React, Tailwind CSS, JavaScript, and GitHub
-                for version control.
+                The stack I used includes React, Tailwind CSS, JavaScript,
+                GitHub for version control, Terraform for infrastructure automation, GitHub Actions for CI/CD, and AWS services such as S3,
+                CloudFront, and Route 53 for hosting and deployment.
               </li>
             </ul>
           </header>
