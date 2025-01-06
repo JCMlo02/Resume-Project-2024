@@ -2,10 +2,10 @@ import React from "react";
 
 const PreSummary = () => {
   return (
-    <section class="pb-2 pb-4 mt-0 first:mt-0">
-      <section class="break-inside-avoid">
-        <section class="mb-2 break-inside-avoid">
-          <p class="mt-2 leading-normal text-gray-700 text-md">
+    <section className="pb-2 pb-4 mt-0 first:mt-0">
+      <section className="break-inside-avoid">
+        <section className="mb-2 break-inside-avoid">
+          <p className="mt-2 leading-normal text-gray-700 text-md">
             As a junior-level software engineer, I combine creativity,
             curiosity, and a strong eagerness to learn with a diverse skill set.
             Passionate about innovation and problem-solving, I am excited to
