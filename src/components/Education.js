@@ -7,7 +7,7 @@ const Education = () => {
         <h2 className="mb-2 text-xl font-black tracking-widest text-gray-800 print:font-normal text-center">
           EDUCATION
         </h2>
-        <section className="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+        <section className="mb-2 break-inside-avoid">
           <header>
             <h3 className="font-semibold text-gray-800 text-md leading-snugish">
               GED
@@ -25,7 +25,9 @@ const Education = () => {
             <h3 className="font-semibold text-gray-800 text-md leading-snugish">
               Certificate in Software Engineering
             </h3>
-            <p className="text-sm text-gray-500 leading-snugish">Road to Hire</p>
+            <p className="text-sm text-gray-500 leading-snugish">
+              Road to Hire
+            </p>
             <p className="text-sm text-gray-500 leading-snugish">
               Aug 2022 &ndash; Feb 2023
             </p>
