@@ -1,63 +1,69 @@
 import React from "react";
 
+const SkillTag = ({ children }) => (
+  <span
+    className="px-3 py-1.5 bg-white/50 backdrop-blur-sm border border-gray-100 text-gray-700 
+                   rounded-lg text-sm font-medium group-hover:text-blue-600 group-hover:border-blue-200 
+                   group-hover:bg-blue-50/50 transition-all duration-300 hover:scale-105"
+  >
+    {children}
+  </span>
+);
+
+const SkillSection = ({ title, skills }) => (
+  <div
+    className="group p-5 backdrop-blur-sm bg-white/80 rounded-xl shadow-sm hover:shadow-md 
+                  transition-all duration-300 border border-gray-100/50"
+  >
+    <h3
+      className="text-lg font-semibold mb-3 bg-gradient-to-r from-gray-900 to-gray-600 
+                   bg-clip-text text-transparent group-hover:from-blue-600 group-hover:to-blue-400"
+    >
+      {title}
+    </h3>
+    <div className="flex flex-wrap gap-2">
+      {skills.map((skill, index) => (
+        <SkillTag key={index}>{skill}</SkillTag>
+      ))}
+    </div>
+  </div>
+);
+
 const TechnicalSkills = () => {
+  const skillSections = {
+    Languages: ["HTML5", "CSS", "JavaScript", "Python", "Java"],
+    "Cloud & DevOps": [
+      "AWS",
+      "Terraform",
+      "GitLab CI/CD",
+      "GitHub Actions",
+      "Docker",
+      "Splunk",
+      "DataDog",
+    ],
+    Frameworks: ["ReactJS", "NodeJS", "TailwindCSS", "GraphQL", "Jest"],
+    Databases: ["PostgreSQL", "MySQL", "DynamoDB"],
+    "Testing & Version Control": [
+      "Jest",
+      "Unit Testing",
+      "TDD",
+      "Git",
+      "GitHub",
+      "GitLab",
+    ],
+    Other: ["RESTful APIs", "Agile", "OOP", "CI/CD"],
+  };
+
   return (
-    <section className="pb-2 pb-4 mt-4 border-b-4 border-gray-300 first:mt-0">
-      <section className="break-inside-avoid">
-        <h2 className="mb-2 text-xl font-black tracking-widest text-gray-800 print:font-normal text-center">
-          TECHNICAL SKILLS
-        </h2>
-        <section className="mb-2 break-inside-avoid">
-          <ul className="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Languages:</strong> HTML5, CSS, JavaScript, Python, Java
-            </li>
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Cloud & DevOps:</strong> AWS, Terraform, GitLab CI/CD,
-              GitHub Actions, Docker, Splunk, DataDog, Dynatrace
-            </li>
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Frameworks:</strong> ReactJS, NodeJS, TailwindCSS,
-              GraphQL, Jest
-            </li>
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Databases:</strong> PostgreSQL, MySQL, DynamoDB
-            </li>
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Testing:</strong> Jest, Unit Testing, Test-Driven
-              Development (TDD), Code Reviews
-            </li>
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Version Control:</strong> Git, GitHub, GitLab
-            </li>
-            <li>
-              <span className="p-2 text-gray-500 transform -translate-y-px select-none">
-                &rarr;{" "}
-              </span>
-              <strong>Other:</strong> RESTful APIs, Agile(Scrum/Kanban), JSON,
-              OOP, CI/CD, Communication, Debugging
-            </li>
-          </ul>
-        </section>
-      </section>
+    <section className="py-6">
+      <h2 className="text-2xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
+        Technical Skills
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {Object.entries(skillSections).map(([title, skills]) => (
+          <SkillSection key={title} title={title} skills={skills} />
+        ))}
+      </div>
     </section>
   );
 };
