@@ -2,30 +2,42 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="text-center items-baseline mb-2 w-full align-top">
-      <h1 className="mb-0 text-5xl font-bold text-gray-700 py-2">
+    <header className="text-center py-6 border-b border-gray-200">
+      <h1 className="text-4xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
         Y-Jacob Mlo
       </h1>
-      <h2 className="m-0 ml-2 text-2xl font-semibold text-gray-600 leading-snugish">
-        Software Engineer
-      </h2>
-      <h3 className="m-0 mt-2 ml-2 text-xl font-semibold text-gray-500 leading-snugish">
-        Charlotte, North Carolina | Jacobmlo2002@gmail.com | 704-840-8197 |{" "}
-        <a
-          className="hover:bg-gray-200 underline"
-          href="https://www.linkedin.com/in/ymlo"
-        >
-          LinkedIn
-        </a>{" "}
-        |{" "}
-        <a
-          className="hover:bg-gray-200 underline"
-          href="https://www.github.com/JCMlo02"
-        >
-          GitHub
+      <h2 className="text-xl text-gray-600 mt-1">Software Engineer</h2>
+      <div className="flex items-center justify-center gap-4 mt-3 text-sm text-gray-500 flex-wrap">
+        <span>Charlotte, North Carolina</span>
+        <span>•</span>
+        <a href="mailto:Jacobmlo2002@gmail.com" className="hover:text-blue-600 transition-colors">
+          Jacobmlo2002@gmail.com
         </a>
-      </h3>
-    </nav>
+        <span>•</span>
+        <a href="tel:704-840-8197" className="hover:text-blue-600 transition-colors">
+          704-840-8197
+        </a>
+        <span>•</span>
+        <div className="flex gap-3">
+          <a
+            href="https://www.linkedin.com/in/ymlo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://www.github.com/JCMlo02"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </header>
   );
 };
 

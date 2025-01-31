@@ -10,4 +10,23 @@ body {
   margin: 0;
   padding: 40px 48px;
   background-color: #f5f5f5;
+  @apply bg-gray-50;
+}
+
+.section-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.hover-card {
+  @apply transform transition-all duration-300 hover:scale-[1.02] hover:shadow-lg;
+}
+
+.skill-tag {
+  @apply px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 hover:bg-blue-200 transition-colors duration-300;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
 }
