@@ -8,12 +8,14 @@ const Summary = () => {
           Summary
         </h2>
         <p className="text-gray-600 leading-relaxed text-lg tracking-wide font-light">
-          As a junior-level software engineer, I combine creativity,
-          curiosity, and a strong eagerness to learn with a diverse skill set.
           <span className="block mt-2">
-            Passionate about innovation and problem-solving, I am
-            excited to take on new challenges and contribute effectively to
-            dynamic teams within the tech industry.
+            Software Engineer with expertise in designing and implementing
+            scalable, serverless architectures using AWS, TypeScript, and
+            Terraform. Proven experience in integrating complex systems,
+            optimizing CI/CD pipelines, and delivering high-impact solutions for
+            enterprise-level applications. Passionate about leveraging cloud
+            technologies to solve large-scale challenges and improve operational
+            efficiency.
           </span>
         </p>
       </div>
