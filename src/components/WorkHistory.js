@@ -36,16 +36,14 @@ const WorkHistory = () => {
       company: "Ally Financial",
       period: "Feb 2023 – Dec 2024",
       achievements: [
-        "Built and maintained a TypeScript-based GraphQL middleware service, integrating PostgreSQL, DynamoDB, internal microservices, and external REST APIs, improving data accessibility by 15%.",
-        "Utilized AWS services and Terraform to implement a serverless architecture and automate deployments, achieving a 10% reduction in infrastructure costs and a 25% decrease in deployment time.",
-        "Improved CI/CD pipelines with GitLab, boosting pipeline stability by 5% and cutting build times by 10%.",
-        "Wrote and maintained unit tests using Jest with over 90% coverage, ensuring high-quality code.",
-        "Collaborated in Agile teams using Jira and Confluence to deliver projects efficiently and continuously improve workflows.",
-        "Developed & maintained a middleware service to streamline the Genesys team’s interaction with Genesys APIs, abstracting complex API workflows and enabling seamless campaign setup and management.",
-        "Managed large-scale file processing using File System (FS) modules and read streams, efficiently handling .txt file uploads, converting data into .csv format, and storing in AWS S3 for integration with Genesys.",
-        "Automated contact list ingestion and campaign initiation using AWS Lambda, reducing manual processes and improving operational efficiency for outbound campaigns.",
-        "Collaborated with the Genesys team to optimize campaign execution while maintaining compliance with contact center regulations and best practices.",
-        "Ensured data integrity and smooth integration by coordinating across cross-functional teams and leveraging the Genesys API for campaign management."
+        "Developed and maintained a TypeScript-based GraphQL service,  integrating PostgreSQL, DynamoDB, internal microservices, and external REST APIs, improving data accessibility by 15% for enterprise-level financial systems.",
+        "Designed and implemented a serverless architecture using AWS services, reducing infrastructure costs by 10% and deployment time by 25% for a high-traffic financial application.",
+        "Enhanced GitLab CI/CD pipelines, improving pipeline stability by 5% and reducing build times by 10%.",
+        "Wrote and maintained unit tests using Jest with over 90% coverage, ensuring high-quality code for mission-critical systems.",
+        "Streamlined Genesys API workflows,  enabling automated contact list ingestion and campaign initiation using AWS Lambda and JavaScript, improving operational efficiency for enterprise-scale customer engagement systems.",
+        "Collaborated with cross-functional teams to implement RESTful APIs, improving system integration and data exchange capabilities.",
+        "Participated in Agile ceremonies, contributing to sprint planning, daily stand-ups, and retrospectives, fostering a collaborative and efficient development environment.",
+        "Contributed to the migration of legacy systems to modern cloud-based solutions, enhancing system performance and scalability.",
       ]
     },
     {
@@ -55,7 +53,10 @@ const WorkHistory = () => {
       achievements: [
         "Completed a 6 month intensive program focusing on software engineering fundamentals.",
         "Successfully developed 3 full-stack applications using HTML/CSS, TypeScript, MySQL, and React, demonstrating proficiency in front-end and backend technologies.",
-        "Collaborated effectively in 2 team projects, simulating real-world tech environments and applying Agile methodologies for efficient project delivery."
+        "Collaborated effectively in 2 team projects, simulating real-world tech environments and applying Agile methodologies for efficient project delivery.",
+        "Gained hands-on experience with Git for version control, ensuring code integrity and facilitating collaborative development.",
+        "Engaged in continuous learning and skill development, staying updated with industry trends and best practices in software development.",
+        "Demonstrated strong problem-solving skills and adaptability in a fast-paced learning environment."
       ]
     }
   ];
